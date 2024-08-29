@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'glifo';
+    src: url(./cronicle/Cronicle\ Demo.otf);
+}
+@font-face {
+  font-family: 'birds-of-paradise';
+  src: url("/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+  --color-text: #2E2E2E;
+  --color-main: #ffffff;
+  --color-2: #e5e5e5;
+  --color-black1: #000000;
+  --color-black2: #2c2c2c;
+}
+
+h1{
+   color: var(--color-text); 
+   font: normal small-caps bold 40px "New Amsterdam",sans serif;
+}
+h2{
+    color: var(--color-text);
+    font: normal small-caps bold 30px "New Amsterdam",sans serif;
+}
+h3{
+  font:oblique small-caps bolder 22px "New Amsterdam",sans serif ;
+}
+p{
+    font: 20px "Roboto Mono", monospace;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+table{
+
+    margin: 30px;
+}
+
+thead{
+    font-weight: bold;
+}
+header{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 50px;
+
+}
+main{
+  margin: auto; /* Centraliza o conteúdo verticalmente */
+  text-align: center; /* Centraliza o texto dentro do conteúdo */
+}
+
+footer{
+  height: 10%;
+  width: 100%;
+  box-shadow: 1px 1px 4px 1px;
+  background-color: var(--color-2);
+}
+
+table{
+  background-color: #FFC107;
+  margin: auto;
+
+}
+.container{
+  background-color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.navbar{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: var(--color-main);
+}
+.navbar button{
+  display: inline;
+  color: var(--color-text);
+  background-color: var(--color-main);
+  border: 0px;
+  font-size: 20px;
+  padding: 10px;
+}
+.navbar button:hover{
+  background-color: var(--color-2);
+  transition: 0.5s;
+  border-radius: 20%;
+}
+.left img{
+  width: 50px;
+  height: 50px;
+}
+
+.text{
+  background-color: var(--color-2);
+}
+
+.glifEx{
+    font-family: 'glifo';
+}
+.glifos {
+  font-family: "Space Mono", monospace;
+    font-weight: bolder;
+}
+.glifos p{
+  font-weight: 400;
+}
+
+.tiposGlifos{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+.tiposGlifos p{
+  padding: 0px 10px;
+}
+
+.anatomiaFontes p{
+  font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.categoriaFontes p{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+  .space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .vermelho{
+    color: red;
+  }
+
+  .birds-of-paradise{
+    font-family: "birds-of-paradise";
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Fontes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div class="navbar">
+            <div class="left">
+                <img src="img/logo.webp">
+            </div>
+            <div class="center">
+            <button onclick="reset()">Página Inicial</button>
+            <button onclick="glifos()">Glifos</button>
+            <button onclick="anatomiaDeFontes()">Anatomia de Fontes</button>
+            <button onclick="categoriaDeFontes()">Categoria de Fontes</button>
+        </div>
+        </div>
+    </header>
+        <main>
+        <h1> Tipografia e Design de Fontes</h1>
+        <section class="text">
+        <p><strong> Tipografia </strong> é a arte e a ciência de projetar, criar e organizar caracteres, estilos e formatos, definindo a disposição visual das palavras. Ela desempenha um papel crucial na forma como os textos são apresentados em peças de design, impactando diretamente a clareza da comunicação e a legibilidade do conteúdo
+        </p>
+     
+        <br>
+            <p>
+                Já 
+                <strong> Design de fontes </strong>é uma área especializada do design que se foca na criação de estilos, arranjos visuais e formas das letras. Essa disciplina envolve o desenvolvimento de famílias tipográficas, cada uma com suas próprias características, significados e propósitos. Ao criar uma fonte, o designer considera diversos aspectos, como a forma, o espaçamento, a legibilidade e a harmonia visual. O design de fontes vai além da simples estética; ele desempenha um papel fundamental na construção da identidade visual de marcas, na comunicação de emoções e na definição do tom de voz de um texto.
+            </p>
+        </section>
+        <br>
+        <section class="glifos">
+            <h2> Glifos: </h2>
+                <div id="outGlifos"></div>
+                <div id="outLinha"></div>
+                <br>
+                <div class="tiposGlifos">
+                    <p>교수</p>
+                    <p>מוֹרֶה</p>
+                    <p></p>
+                </div>
+
+        </section>
+        <br>
+        <section class="anatomiaFontes">
+            <h2>Anatomia de Fontes:</h2>
+            <div id="OutAnatomia"></div>
+        </section>
+        <br>
+        <section class="categoriaFontes">
+            <h2>Categorias de fontes:</h2>
+            <div id="outCategoria"></div>
+        </section>
+        <br>
+        <section class="difFontes">
+            <table>
+                <caption> <h3>Diferença entre fontes</h3></caption>
+                <thead>
+                <tr class="vermelho">
+                    <td>Serifadas</td>
+                    <td>Sans-Serif</td>
+                    <td>Monoespaçadas</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="merriweather-regular">Merriweather</td>
+                        <td class="ubuntu-regular">Ubuntu</td>
+                        <td class="space-mono-regular">Space Mono</td>
+                    </tr>
+                    <tr>
+                        <td class="merriweather-bold">Merriweather Bold</td>
+                        <td class="ubuntu-bold">Ubuntu Bold</td>
+                        <td class="space-mono-bold">Space Mono Bold</td>
+                    </tr>
+                    <tr>
+                        <td class="merriweather-regular-italic">Merriweather Italic</td>
+                        <td class="ubuntu-regular-italic">Ubuntu Italic</td>
+                        <td class="space-mono-regular-italic">Space Mono Italic</td>
+                    </tr>
+                    <tr>
+                        <td class="merriweather-bold-italic">Merriweather Bold Italic</td>
+                        <td class="ubuntu-bold-italic">Ubuntu Bold Italic</td>
+                        <td class="space-mono-bold-italic">Space Mono Bold Italic</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Trabalho desenvolvido por Heitor Poleze e Lorenzo na matéria Desenvolvimento Front-end 1</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
